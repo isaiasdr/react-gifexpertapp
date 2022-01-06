@@ -13,15 +13,15 @@ export const AddCategory = ( {setCategories} ) => {
         e.preventDefault();
 
         if(inputValue.trim().length > 2) {
-            setCategories( categories => {
-                if(!categories.find( categorie => categorie === inputValue)) {
-                    setInputValue( '' );
+            setCategories( categories => { 
+                if(!categories.find( categorie => categorie === inputValue))    
                     return [ inputValue, ...categories ];
-                } else {
-                    setInputValue( '' );
+
+                else
                     return [...categories];
-                }
             });
+
+            setInputValue( '' );
         }
     }
 

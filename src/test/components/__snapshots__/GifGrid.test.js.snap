@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test GifGrid should show GifGrid correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    test
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Test GifGrid should show images when load images useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    test
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Wenas"
+      url="https://localhost:3000/werever"
+    />
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="Wenas"
+      url="https://localhost:3000/werever"
+    />
+  </div>
+</Fragment>
+`;

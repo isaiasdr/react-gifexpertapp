@@ -4,6 +4,6 @@ import GifExpertApp from './GifExpertApp';
 import './index.css';
 
 ReactDOM.render(
-    <GifExpertApp />,
+  <GifExpertApp defaultCategories={['Jujutsu Kaisen']} />,
   document.getElementById('root')
 );
